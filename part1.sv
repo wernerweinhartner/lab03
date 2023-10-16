@@ -1,7 +1,7 @@
 //part 1
 
 module part1(input logic [3:0] a, b, input logic c_in,
-output logic [3:0] s, c_out);
+             output logic [3:0] s, output logic c_out);
     logic c1, c2, c3;
 
     full_adder u1(a[0],b[0],c_in,    s[0],c1);
